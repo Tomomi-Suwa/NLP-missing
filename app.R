@@ -4,9 +4,9 @@ library(ggplot2)
 
 #test 
 #Prep the data (Run this section before running UI and Server section----
-#nlp<-read.csv("data/NLPdata.csv")
+nlp<-read.csv("data/NLPdata.csv")
 #convert CountryCombined column to all uppercase for consistency
-#nlp <- nlp %>% mutate(CountryCombined=toupper(CountryCombined))
+nlp <- nlp %>% mutate(CountryCombined=toupper(CountryCombined))
 
 
 #UI----
